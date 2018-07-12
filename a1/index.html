@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <!-- meta http-equiv="X-Frame-Options" content="deny" -->
+    <title>My First Webpage</title>
+
+    <!-- We will cover style later. Skip down to the body tag -->
+    <link type="text/css" rel="stylesheet" href="https://titan.csit.rmit.edu.au/~e54061/css/wireframe.css"/>
+    <link type="text/css" rel="stylesheet" href="https://titan.csit.rmit.edu.au/~e54061/css/basic.css"/>
+
+
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Image sourced from www.rmit.edu.au for educational purposes only -->
+      <div><img src='../media/RMIT-Logo.png' alt='RMIT University logo' height=80>Sri Sai Teja Paturu
+      </div>
+    </header>
+
+    <nav>
+      Assignments:
+      <!-- link locations: relative to current directory -->
+      <ul>
+        <li><a href="./index.html">A1</a></li>
+        <li><a href="../a2/index.html" target="_blank">A2</a></li>
+        <li><a href="../a3/index.php" target="_blank">A3</a></li>
+      </ul> |
+      <!-- link locations: relative to e54061's root web directory -->
+      <a href="/~e54061/wp/lectures" target="_blank">Lectures 0 - 11</a> |
+      <a href="/~e54061/secure" target="_blank">Secure Resources Area</a> |
+      <!-- link location: absolute -->
+      <a href='https://drive.google.com/open?id=1sefWRCDTO1gWQQQpVyzhkb9TrvlfZjd1' target="_blank">WP Public</a>
+    </nav>
+
+    <main>
+      <article id='about-me'>
+        <h2>About me</h2>
+        <p>
+          <img src='../media/Wolverine.jpg' width=150 height=150 alt='my photo' />
+        </p>
+        <details open>
+          <summary>read more ...</summary>
+            <table id="more-about-me">
+              <tr>
+                <th>Have you any programming or web design experience?</th>
+                <td>I have a little experience in programming in C language and java, but none in web designing.</td>
+              </tr>
+              <tr>
+                <th>Do you see yourself as a programmer or designer, or both?</th>
+                <td>I see myself more of a programmer than a designer. I have coded a few simple programs but I haven't done any designing apart from the assignments in user centered design.</td>
+              </tr>
+              <tr>
+                <th>What has brought you to this course at RMIT?</th>
+                <td>I always wanted to learn web programming and it's also compulsory for my course.</td>
+              </tr>
+              <tr>
+                <th>What are you hoping to get out of the course?</th>
+                <td>I am hoping that I will learn the basics of web programming and be able to use github and develope websites from the languages that I learn in this course.</td>
+              </tr>
+              <tr>
+                <th>Assignments allow for individual or paried work. What strengths do you have and what strengths would you like your assignment partner to have?</th>
+                <td>I can code pretty good and follow the lectures, practicals and tutorials so I will be on par with the class. If we decide on a time to meet for the assignment, I will be on time and do my part of the work. I  want my partner to know what is taught in the classes and do their part of the assignment and be on time during the meetings</td>
+              </tr>
+              <tr>
+                <th>What websites do you use the most? (NB: "family friendly" !)</th>
+                <td>The websites I use on a daily basis are Youtube, facebook and Netflix.</td>
+              </tr>
+              <tr>
+                <th>Do you have any interests or hobbies?</th>
+                <td>I play games most of the time, read book and recently started cooking.</td>
+              </tr>
+            </table>
+        </details>
+      </article>
+      <aside>
+
+      </aside>
+    </main>
+
+    <footer>
+      &copy; Sri Sai Teja Paturu
+      <script>
+        document.write(new Date().getFullYear());
+      </script>.
+      Put footer info and other <a href=' '>secondary links</a> here (but only if you wish to).
+    </footer>
+
+
+  </body>
+</html>
